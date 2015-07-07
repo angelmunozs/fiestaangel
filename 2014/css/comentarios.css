@@ -1,0 +1,244 @@
+html{
+	height: 100%;
+}
+body{
+	margin:0px; padding:0px; font-family: 'PT Sans Narrow', sans-serif; min-height: 100%;
+}
+#cuerpo{
+	position: relative;
+	padding:40px;
+	margin-top:2%;
+	border-radius:3px;
+	background-color:rgba(0, 0, 0, 0.7);
+	margin-bottom:2%;
+}
+#titulo{
+	color:#fff;
+	font-size:46px;
+	text-transform:uppercase;
+	text-shadow:3px 3px #333;
+}
+#notelo{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#soyirlan{
+	font-size:24px;
+	color:#FC0;
+	text-transform:uppercase;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#subtitulo{
+	font-family: 'Open Sans Condensed';
+	color:#ccc;
+	font-size:20px;
+	font-style:italic;
+	margin-bottom:20px;
+}
+.enviar input{
+	margin-top:20px;
+	font-family: 'PT Sans Narrow';
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:12px;
+	padding-right:12px;
+	color:#fff;
+	border:none;
+	background-color:#AE43CF;
+	font-size:24px;
+	border-radius:2px;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+.enviar input:hover{
+	background-color:#911FB3;
+	cursor:pointer;
+}
+.enviar a{
+	margin-top:20px;
+	font-family: 'PT Sans Narrow';
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:12px;
+	padding-right:12px;
+	color:#fff;
+	border:none;
+	background-color:#FE9A2E;
+	font-size:24px;
+	border-radius:2px;
+	font-weight:normal;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+.enviar a:hover{
+	background-color:#DF7401;
+	cursor:pointer;
+}
+.acciones{
+	margin-bottom:20px;
+	font-family: 'PT Sans Narrow';
+	padding: 10px 20px 11px;
+	font-size: 21px;
+	background-color: rgba(0, 0, 0, 0.8);
+	font-weight: normal;
+	color: #ffffff;
+	border-radius: 100px;
+	border: none;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+.acciones:hover{
+	font-weight: bold;
+	color: #DA81F5;
+}
+#accionesMusica2{
+}
+#accionesMusica1{
+	margin-top:30px;
+}
+.label{
+	margin-top:16px;
+	margin-bottom:12px;
+	color:#fff;
+	font-size:24px;
+}
+.field{
+	font-family: 'Open Sans Condensed';
+	color:#ccc;
+	font-size:20px;
+	margin-bottom:20px;
+}
+.fieldFile input{
+	font-family: 'Open Sans Condensed';
+	padding:9px;
+	color:#CCC;
+	background-color:rgba(0, 0, 0, 0.7);
+	border:0px;
+	font-size:16px;
+	border-radius:1px;
+	margin-left:15px;
+	margin-right:15px;
+	font-weight:normal;
+}
+.fieldError{
+	font-family: 'Open Sans Condensed';
+	color:#FA5858;
+	font-size:18px;
+	margin-bottom:20px;
+}
+.field input{
+	font-family: 'Open Sans Condensed';
+	padding:9px;
+	color:#CCC;
+	background-color:rgba(0, 0, 0, 0.7);
+	border:0px;
+	font-size:20px;
+	border-radius:1px;
+	margin-left:15px;
+	margin-right:15px;
+	font-weight:normal;
+}
+.field select{
+	background: url(new_arrow.png) no-repeat right #ddd;
+	font-family: 'Open Sans Condensed';
+	padding:9px;
+	color:#CCC;
+	background-color:rgba(0, 0, 0, 0.7);
+	border:0px;
+	font-size:20px;
+	border-radius:1px;
+	margin-left:15px;
+	margin-right:15px;
+}
+#superior{
+	background-color:#222; box-shadow: 0px 6px 6px #333;
+}
+#tdsuperior{
+	padding:6px; color:#fff;
+}
+#tdsuperior a{
+	text-decoration:none; font-weight:normal; color:#FFF;
+}
+#tdsuperiorlink1:hover{
+	font-weight:bold; color:#F4FA58; text-decoration: none;
+}
+#tdsuperiorlink2:hover{
+	font-weight:bold; color:#819FF7; text-decoration: none;
+}
+#tdsuperiorlink3:hover{
+	font-weight:bold; color:#F78181; text-decoration: none;
+}
+#tdsuperiorlink4:hover{
+	font-weight:bold; color:#81F781; text-decoration: none;
+}
+#tdsuperiorlink5:hover{
+	font-weight:bold; color:#DA81F5; text-decoration: none;
+}
+#tdsuperiorlink6:hover{
+	font-weight:bold; color:#01DFA5; text-decoration: none;
+}
+#linkAtras a{
+	text-transform:uppercase;
+	color:#fff;
+}
+#linkAtras a:hover{
+	cursor:pointer;
+	color:#FE9A2E;
+}
+.comentario textarea{
+	font-family: 'Open Sans Condensed';
+	padding:9px;
+	color:#CCC;
+	background-color:rgba(0, 0, 0, 0.7);
+	border:0px;
+	font-size:18px;
+	border-radius:1px;
+	margin-left:15px;
+	margin-right:15px;
+	font-weight:normal;
+}
+.comentario input{
+	margin-top:20px;
+	font-family: 'PT Sans Narrow';
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:12px;
+	padding-right:12px;
+	color:#fff;
+	border:none;
+	background-color:#FF8000;
+	font-size:18px;
+	border-radius:2px;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+.comentario input:hover{
+	background-color:#B45F04;
+	cursor:pointer;
+}
+.sinestilo input{
+	margin-top:0px;
+	font-family: 'PT Sans Narrow';
+	padding:0px;
+	color:#81BEF7;
+	border:none;
+	background-color:transparent;
+	font-size:16px;
+	font-weight:normal;
+}
+.sinestilo input:hover{
+	cursor:pointer;
+	text-decoration:underline;
+	text-align:center;
+}
+.menu_nuevo{
+	font-size:14px;color:#F33;font-family:'Open Sans Condensed';
+}
+#titularComment{
+	font-family: 'Open Sans Condensed';
+	color:#ccc;
+	font-size:20px;
+	font-style:italic;
+	margin-bottom:20px;
+}
